@@ -1,7 +1,7 @@
 import type { NextPage } from 'next'
 import Head from 'next/head'
 import React from 'react'
-import { Header, Wrapper } from '../components'
+import { Content, Header, Wrapper } from '../components'
 
 const Home: NextPage = () => {
 
@@ -12,6 +12,7 @@ const Home: NextPage = () => {
       </Head>
       <Wrapper>
         <Header />
+        <Content />
       </Wrapper>
     </React.Fragment>
   )
