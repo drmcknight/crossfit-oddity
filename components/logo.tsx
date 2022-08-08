@@ -10,6 +10,10 @@ const LogoWrapper = styled.div`
 const LogoText = styled.span`
     display: inline-block;
     line-height: 60px;
+    font-size: large;
+    font-weight: bold;
+    text-transform: uppercase;
+
 `;
 
 export const Logo = () => {
@@ -22,7 +26,7 @@ export const Logo = () => {
             alt="logo"
         />
         <LogoText>
-            CrossFit Oddity
+            CrossFitOddity
         </LogoText>
     </LogoWrapper>
     )

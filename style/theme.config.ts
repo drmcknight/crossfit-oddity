@@ -13,11 +13,17 @@ export const GlobalStyles = createGlobalStyle`
 body {
     margin: 0;
     padding: 0;
-    background: ${({theme}) => theme.body };
-    color: ${({theme}) => theme.text };
-    font-family: san-serif;
+    font-family: Roboto;
     font-weight: 400;
     font-style: normal;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:hover {
+    color: #7cda24;
 }
 
 input, textarea, button {font-family: inherit};
