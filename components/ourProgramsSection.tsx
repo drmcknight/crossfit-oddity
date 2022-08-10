@@ -3,16 +3,16 @@ import styled from 'styled-components'
 const FullWidthSection = styled.section`
     width: 450px;
     max-height: 550px;
-    background-color: red;
     margin: 5px;
     flex-basis: 100%;
+    background-color: #f4f4f4;
+    margin: 0;
 `;
 
-const SectionHeader = styled.h2`
-    
-`;
-
-const ItemHeader = styled.h3`
+const ItemHeader = styled.h2`
+    font-weight: 800;
+    text-transform: uppercase;
+    font-family: Oswald;
 `;
 
 const ItemList = styled.div`
@@ -28,7 +28,7 @@ const Item = styled.summary`
     @media (max-width: 768px) {
         flex-basis: 100%;
       }
-    padding: 0px 15px;
+    padding: 0px 25px;
 `;
 
 const ItemDescription = styled.p`
@@ -38,9 +38,6 @@ const ItemDescription = styled.p`
 export const OurProgramsSection = () => {
     return (
         <FullWidthSection>
-            <SectionHeader>
-                Our Programs
-            </SectionHeader>
             <ItemList>
                 <Item>
                     <ItemHeader>CrossFit Group Training</ItemHeader>

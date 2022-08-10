@@ -16,10 +16,9 @@ const Link = styled.a`
 export const Menu  = () => {
     return (
         <Nav>
-          <Link href="">About Us</Link>
+          <Link href="">Our Gym</Link>
           <Link href="">Memberships</Link>
-          <Link href="">Programs</Link>
-          <Link href="">Contact Us</Link>
+          <Link href="">Schedule</Link>
         </Nav>
     );
 }

@@ -8,6 +8,7 @@ const HeaderWrapper = styled.header`
     height: 60px;
     display: flex;
     flex-direction: row;
+    background-color: white;
 `;
 
 export const Header = () => {
