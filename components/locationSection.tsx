@@ -1,30 +1,49 @@
 import styled from 'styled-components'
 
 const Item = styled.section`
-    width: 450px;
-    max-height: 250px;
+    height: 270px;
     background-color: red;
-    margin: 5px;
-    flex-grow: 1;
-    padding: 5px;
-    background-color: #f4f4f4;
-    border: 1px solid lightgray;
-    border-radius: 15px;
+    margin: 0;
+    flex-basis: 50%;
+    background-image: url('/images/oddity-location.png');
 `;
 
 const ItemHeader = styled.h2`
     font-family: Oswald;
+    text-align: center;
 `;
 
 const ItemDescription = styled.p`
     padding: 15px;
 `;
 
+const HeroImageSection = styled.section`
+    flex-basis: 100%;
+    margin: 0;
+`;
+
+const Mask = styled.div`
+    background-color:rgba(0, 0, 0, 0.4);
+    width:100%;
+    height: 100%;
+    color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+`;
+
+const Address = styled.span`
+    margin: auto;
+`;
+
 export const LocationSection = () => {
     return (
         <Item>
-            <ItemHeader>How to find us</ItemHeader>
-            <ItemDescription>asdf</ItemDescription>
+            <Mask>
+                <Address>
+                    102 Research Blvd <br /> Madison, AL 35758
+                </Address>
+            </Mask>
         </Item>
     );
 }

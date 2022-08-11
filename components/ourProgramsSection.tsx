@@ -1,7 +1,6 @@
 import styled from 'styled-components'
 
 const FullWidthSection = styled.section`
-    width: 450px;
     max-height: 550px;
     margin: 5px;
     flex-basis: 100%;
@@ -13,6 +12,7 @@ const ItemHeader = styled.h2`
     font-weight: 800;
     text-transform: uppercase;
     font-family: Oswald;
+    text-align: center;
 `;
 
 const ItemList = styled.div`

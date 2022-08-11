@@ -1,5 +1,5 @@
 import styled from 'styled-components'
-import { CTASection, GettingStartedSection, LocationSection, OurMissionSection, OurProgramsSection } from '../components';
+import { CTASection, GettingStartedSection, HeroSection, LocationSection, MembershipsSection, OurProgramsSection } from '../components';
 
 const Main = styled.main`
     width: 100%;
@@ -11,8 +11,9 @@ const Main = styled.main`
 export const Content = () => {
     return (
         <Main>
+            <HeroSection />
             <OurProgramsSection />
-            <OurMissionSection />
+            <MembershipsSection />
             <CTASection />
             <GettingStartedSection />
             <LocationSection />

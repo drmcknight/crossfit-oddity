@@ -4,7 +4,8 @@ export { Wrapper } from './wrapper'
 export { Logo } from './logo';
 export { Content } from './content';
 export { OurProgramsSection } from './ourProgramsSection';
-export { OurMissionSection} from './ourMissionSection';
+export { MembershipsSection } from './membershipsSection';
 export { GettingStartedSection } from './gettingStartedSection';
 export { CTASection } from './ctaSection';
 export { LocationSection } from './locationSection';
+export { HeroSection } from './heroSection';

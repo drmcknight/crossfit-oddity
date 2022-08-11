@@ -1,31 +1,52 @@
 import styled from 'styled-components'
 
 const Item = styled.section`
-    width: 450px;
-    max-height: 250px;
-    margin: 5px;
-    flex-grow: 1;
+    height: 270px;
+    margin: 0;
+    flex-basis: 50%;
     padding: 5px;
     background-color: #f4f4f4;
-    border: 1px solid lightgray;
-    border-radius: 15px;
 `;
 
 const ItemHeader = styled.h2`
     font-family: Oswald;
-    padding-left: 25px;
+    text-align: center;
 `;
 
 const ItemDescription = styled.p`
-    padding: 15px;
+    padding: 0 40px 40px 40px;
+`;
+
+const LinkList = styled.div`
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+`;
+
+const Link = styled.a`
+    display: inline-block;
+    padding: 10px;
+    background-color: #7cda24;
+    color: white;
+    cursor: pointer;
+    margin-right: 15px;
+    &:hover {
+        color: white;
+    }
 `;
 
 
 export const GettingStartedSection = () => {
     return (
         <Item>
-            <ItemHeader>Getting Started</ItemHeader>
-            <ItemDescription>We understand that starting something new can be intimidating. We take the stress out of getting started by making it as easy as possible.</ItemDescription>
+            <ItemHeader>Just Getting Started?</ItemHeader>
+            <ItemDescription>
+                We understand that starting something new can be intimidating. Use the resources below to hopefully take the stress out of getting started.
+            </ItemDescription>
+            <LinkList>
+                <Link>Take a tour of the gym</Link>
+                <Link>Read about the On Ramp</Link>
+            </LinkList>
         </Item>
     );
 }

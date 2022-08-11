@@ -1,10 +1,9 @@
 import styled from 'styled-components'
 
 const Item = styled.section`
-    width: 450px;
-    max-height: 350px;
+    height: 270px;
     margin: 5px;
-    flex-grow: 1;
+    flex-basis: 50%;
     padding: 5px;
     background-color: #7cda24;
     color: white;
@@ -13,13 +12,20 @@ const Item = styled.section`
 
 const ItemHeader = styled.h2`
     font-family: Oswald;
-    padding-left: 30px;
+    text-align: center;
+`;
+
+const ItemDescription = styled.div`
+    padding: 5px;
+    width: 570px;
+    margin: auto;
 `;
 
 const Form = styled.form`
     display: flex;
     flex-flow: row wrap;
     justify-content: end;
+    margin-top: 15px;
 `;
 
 const Input = styled.input`  
@@ -48,7 +54,8 @@ const SubmitButton = styled.button`
 export const CTASection = () => {
     return (
         <Item>
-            <ItemHeader>Leave us your name and number and we'll send you a text</ItemHeader>
+            <ItemHeader>Leave us your name and number and we'll text you</ItemHeader>
+            <ItemDescription>We will talk about what your fitness goals are in addition to helping you pick the right program tailored specifically for you. </ItemDescription>
             <Form>
                 <Input name='name' placeholder='Your name' />
                 <Input name='phone' placeholder='Phone' />
