@@ -1,13 +1,15 @@
 import styled from 'styled-components'
 
 const Item = styled.section`
-    height: 270px;
     background-color: red;
     flex-basis: 50%;
     padding: 5px;
     background-color: #292d3f;
     color: white;
     margin: 0;
+    @media (max-width: 768px) {
+        flex-basis: 100%;
+    }
 `;
 
 const ItemHeader = styled.h2`
@@ -17,7 +19,6 @@ const ItemHeader = styled.h2`
 
 const MembershipList = styled.div`
     display: flex;
-    height: 140px;
     padding: 10px;
     margin-top: 30px;
     flex-flow: row wrap;
@@ -46,6 +47,10 @@ const LinkList = styled.div`
     display: flex;
     flex-flow: row wrap;
     justify-content: center;
+    margin-top: 35px;
+    @media (max-width: 768px) {
+        margin: 20px 0 20px 0;
+    }
 `;
 
 const MembershipOptionsLink = styled.a`

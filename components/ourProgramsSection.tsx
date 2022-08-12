@@ -17,10 +17,7 @@ const ItemHeader = styled.h2`
 
 const ItemList = styled.div`
     display: flex;
-    flex-direction: row;
-    @media (max-width: 768px) {
-        flex-wrap: wrap;
-      }
+    flex-flow: row wrap;
 `;
 
 const Item = styled.summary`

@@ -6,6 +6,9 @@ const Item = styled.section`
     margin: 0;
     flex-basis: 50%;
     background-image: url('/images/oddity-location.png');
+    @media (max-width: 768px) {
+        flex-basis: 100%;
+    }
 `;
 
 const ItemHeader = styled.h2`

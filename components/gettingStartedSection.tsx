@@ -6,6 +6,9 @@ const Item = styled.section`
     flex-basis: 50%;
     padding: 5px;
     background-color: #f4f4f4;
+    @media (max-width: 768px) {
+        flex-basis: 100%;
+    }
 `;
 
 const ItemHeader = styled.h2`
@@ -44,7 +47,7 @@ export const GettingStartedSection = () => {
                 We understand that starting something new can be intimidating. Use the resources below to hopefully take the stress out of getting started.
             </ItemDescription>
             <LinkList>
-                <Link>Take a tour of the gym</Link>
+                <Link>Tour the gym</Link>
                 <Link>Read about the On Ramp</Link>
             </LinkList>
         </Item>

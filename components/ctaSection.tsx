@@ -1,13 +1,15 @@
 import styled from 'styled-components'
 
 const Item = styled.section`
-    height: 270px;
     margin: 5px;
     flex-basis: 50%;
     padding: 5px;
     background-color: #7cda24;
     color: white;
     margin: 0;
+    @media (max-width: 768px) {
+        flex-basis: 100%;
+    }
 `;
 
 const ItemHeader = styled.h2`
@@ -17,7 +19,6 @@ const ItemHeader = styled.h2`
 
 const ItemDescription = styled.div`
     padding: 5px;
-    width: 570px;
     margin: auto;
 `;
 

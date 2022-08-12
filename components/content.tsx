@@ -6,6 +6,9 @@ const Main = styled.main`
     display: flex;
     flex-flow: row wrap;
     padding 5px;
+    @media (max-width: 768px) {
+        padding: 0;
+    }
 `;
 
 export const Content = () => {
