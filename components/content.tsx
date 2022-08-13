@@ -5,7 +5,7 @@ const Main = styled.main`
     width: 100%;
     display: flex;
     flex-flow: row wrap;
-    padding 5px;
+    padding 0;
     @media (max-width: 768px) {
         padding: 0;
     }
