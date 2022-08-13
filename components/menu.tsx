@@ -16,7 +16,7 @@ const Link = styled.a`
 export const Menu  = () => {
     return (
         <Nav>
-          <Link href="">Our Gym</Link>
+          <Link href="/our-gym">Our Gym</Link>
           <Link href="/memberships">Memberships</Link>
           <Link href="">Schedule</Link>
         </Nav>

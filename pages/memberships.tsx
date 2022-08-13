@@ -2,7 +2,7 @@ import type { NextPage } from 'next'
 import Head from 'next/head'
 import React from 'react'
 import styled from 'styled-components';
-import { CTASection, Header, Wrapper } from '../components'
+import { Header, Wrapper } from '../components'
 import { CTAFullWidth } from './ctaFullWidth';
 
 const Main = styled.main`
