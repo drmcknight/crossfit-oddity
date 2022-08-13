@@ -57,7 +57,7 @@ export const CTASection = () => {
         <Item>
             <ItemHeader>Leave us your name and number and we'll text you</ItemHeader>
             <ItemDescription>We will talk about what your fitness goals are in addition to helping you pick the right program tailored specifically for you. </ItemDescription>
-            <Form>
+            <Form action="https://formspree.io/f/xbjbjkgd" method='POST'>
                 <Input name='name' placeholder='Your name' />
                 <Input name='phone' placeholder='Phone' />
                 <SubmitButton type='submit'>Submit</SubmitButton>

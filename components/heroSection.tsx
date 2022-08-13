@@ -14,7 +14,7 @@ const HeroMask = styled.div`
     background-color:rgba(0, 0, 0, 0.6);
     width:100%;
     height: 100%;
-    font-size: 70px;
+    font-size: 50px;
     margin: auto;
     display: flex;
     flex-flow: row;
@@ -24,6 +24,7 @@ const HeroMask = styled.div`
 
 const HeroHeading = styled.span`
     margin: auto;
+    word-spacing: 20px;
 `;
 
 

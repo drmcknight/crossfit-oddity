@@ -17,7 +17,7 @@ export const Menu  = () => {
     return (
         <Nav>
           <Link href="">Our Gym</Link>
-          <Link href="">Memberships</Link>
+          <Link href="/memberships">Memberships</Link>
           <Link href="">Schedule</Link>
         </Nav>
     );

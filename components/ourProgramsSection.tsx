@@ -38,15 +38,15 @@ export const OurProgramsSection = () => {
             <ItemList>
                 <Item>
                     <ItemHeader>CrossFit Group Training</ItemHeader>
-                    <ItemDescription>If you do not have CrossFit experience, we have a Foundations course to work you into how it works. We want to make sure you’re comfortable before joining classes. Then you can join our main Group Training. If you already have experience, you can join right in.</ItemDescription>
+                    <ItemDescription>Execute a diverse set of workouts within a group setting. Each session is led by a coach that will warm you up, teach you how to perform the moves, and help you scale the exercise to your fitness level. You must complete our Foundations course before jumping into a group sessions.</ItemDescription>
                 </Item>
                 <Item>
                     <ItemHeader>Barbell Club</ItemHeader>
-                    <ItemDescription>We work on olympic weightlifting. Each session is led by a trained coach. These are in 8 week block programs.</ItemDescription>
+                    <ItemDescription>Work on olympic weightlifting in 8 week blocks with a trained coach.</ItemDescription>
                 </Item>
                 <Item>
                     <ItemHeader>Yoga Classes</ItemHeader>
-                    <ItemDescription>This program is included in your membership. There are two per week, see the schedule for class times.</ItemDescription>
+                    <ItemDescription>Improve mental and physical fitness with our twice-per-week yoga classes. These classes are included in your membership and will be led by a coach.</ItemDescription>
                 </Item>
             </ItemList>
         </FullWidthSection>

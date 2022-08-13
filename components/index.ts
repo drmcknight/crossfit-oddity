@@ -2,7 +2,6 @@ export { Menu } from './menu';
 export { Header } from './header';
 export { Wrapper } from './wrapper'
 export { Logo } from './logo';
-export { Content } from './content';
 export { OurProgramsSection } from './ourProgramsSection';
 export { MembershipsSection } from './membershipsSection';
 export { GettingStartedSection } from './gettingStartedSection';
