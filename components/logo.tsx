@@ -2,17 +2,22 @@ import styled from 'styled-components';
 import Image from 'next/image';
 
 const LogoWrapper = styled.div`
-    flex-grow: 2;
     display: flex;
     flex-direction: row;
 `;
 
-const LogoText = styled.span`
+const LogoLink = styled.a`
     display: inline-block;
     line-height: 60px;
     font-size: large;
     font-weight: bold;
     text-transform: uppercase;
+    &:hover {
+        color: black;
+    }
+    &:visited {
+        color: black;
+    }
 
 `;
 
@@ -25,9 +30,9 @@ export const Logo = () => {
             width="60px"
             alt="logo"
         />
-        <LogoText>
+        <LogoLink href="/">
             CrossFitOddity
-        </LogoText>
+        </LogoLink>
     </LogoWrapper>
     )
 }

@@ -3,7 +3,7 @@ import Head from 'next/head'
 import React from 'react'
 import styled from 'styled-components';
 import { Header, Wrapper } from '../components'
-import { CTAFullWidth } from './ctaFullWidth';
+import { CTAFullWidth } from '../components/ctaFullWidth';
 
 const Main = styled.main`
     width: 75%;
@@ -71,6 +71,8 @@ const Memberships: NextPage = () => {
   return (
     <React.Fragment>
        <Head>
+       <title>Memberships - CrossFit Oddity - Madison, AL</title>
+        <meta name="description" content='We offer several membership options regardless of whether or not you are just dropping in or are looking for a new gym home.'></meta>
         <link href="https://fonts.googleapis.com/css2?family=Oswald&family=Roboto&display=optional" rel="stylesheet" />
       </Head>
       <Wrapper>

@@ -63,6 +63,9 @@ const MembershipOptionsLink = styled.a`
     &:hover {
         color: white;
     }
+    &:visited {
+        color: white;
+    }
 `;
 
 
@@ -80,7 +83,7 @@ export const MembershipsSection = () => {
                 </MembershipWrapper>
             </MembershipList>
             <LinkList>
-                <MembershipOptionsLink>View more membership options</MembershipOptionsLink>
+                <MembershipOptionsLink href="/memberships">View more membership options</MembershipOptionsLink>
             </LinkList>
         </Item>
     );

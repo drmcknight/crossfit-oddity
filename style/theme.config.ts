@@ -26,7 +26,9 @@ html {
 a {
     text-decoration: none;
 }
-
+a: visited {
+    color: black;
+}
 a:hover {
     color: #7cda24;
 }

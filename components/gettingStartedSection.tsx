@@ -36,6 +36,9 @@ const Link = styled.a`
     &:hover {
         color: white;
     }
+    &:visited {
+        color: white;
+    }
 `;
 
 
@@ -47,8 +50,8 @@ export const GettingStartedSection = () => {
                 We understand that starting something new can be intimidating. Use the resources below to hopefully take the stress out of getting started.
             </ItemDescription>
             <LinkList>
-                <Link>Tour the gym</Link>
-                <Link>Read about the On Ramp</Link>
+                <Link href="/our-gym">Tour the gym</Link>
+                <Link href="/on-ramp">Read about the On Ramp</Link>
             </LinkList>
         </Item>
     );

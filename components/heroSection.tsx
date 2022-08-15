@@ -5,7 +5,8 @@ const HeroImageSection = styled.section`
     height: 426px;
     margin: 5px;
     flex-basis: 100%;
-    background-image: url('/images/oddity-gym.jpg');
+    background-image: url('/images/back-of-gym-hero.jpg');
+    background-position: 10px;
     margin: 0;
     color: white;
 `;

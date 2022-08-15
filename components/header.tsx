@@ -9,12 +9,26 @@ const HeaderWrapper = styled.header`
     display: flex;
     flex-direction: row;
     background-color: white;
+    justify-content: space-between;
 `;
+const PhoneNumber = styled.a`
+    display: inline-block;
+    line-height: 60px;
+    font-size: large;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: black;
+    &:visited {
+        color: black;
+    }
+`;
+
 
 export const Header = () => {
     return (
         <HeaderWrapper>
             <Logo />
+            <PhoneNumber href="tel:(256)924-5726">(256) 924-5726</PhoneNumber>
             <Menu />
         </HeaderWrapper>
     )
