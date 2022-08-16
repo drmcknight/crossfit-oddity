@@ -3,7 +3,24 @@ const isProd = process.env.NODE_ENV === 'production';
 const nextConfig = {
   reactStrictMode: true,
   swcMinify: true,
-  assetPrefix: isProd ? '/crossfit-oddity/' : ''
+  assetPrefix: isProd ? '/crossfit-oddity/' : '',
+  experimental: {
+    images: {
+      unoptimized: true
+    }
+  },
+  exportPathMap: async function (
+    defaultPathMap,
+    { dev, dir, outDir, distDir, buildId }
+  ) {
+    return {
+      '/': { page: '/' },
+      '/memberships': { page: '/memberships' },
+      '/our-gym': { page: '/our-gym' },
+      '/schedule': { page: '/schedule' },
+      '/on-ramp': { page: '/on-ramp' },
+    }
+  },
 }
 
 module.exports = nextConfig
