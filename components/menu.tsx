@@ -16,9 +16,9 @@ const Link = styled.a`
 export const Menu  = () => {
     return (
         <Nav>
-          <Link href="/our-gym">Our Gym</Link>
-          <Link href="/memberships">Memberships</Link>
-          <Link href="/schedule">Schedule</Link>
+          <Link href="/crossfit-oddity/our-gym">Our Gym</Link>
+          <Link href="/crossfit-oddity/memberships">Memberships</Link>
+          <Link href="/crossfit-oddity/schedule">Schedule</Link>
         </Nav>
     );
 }

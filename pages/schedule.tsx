@@ -66,7 +66,7 @@ const OnRamp: NextPage = () => {
         <Header />
         <Main>
             <PageHeader>Schedule</PageHeader>
-            <Image src="/images/oddity-schedule.webp" height="400" width="700"></Image>
+            <Image src="/crossfit-oddity/images/oddity-schedule.webp" height="400" width="700"></Image>
         </Main>
       </Wrapper>
     </React.Fragment>

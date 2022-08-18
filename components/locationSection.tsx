@@ -5,7 +5,7 @@ const Item = styled.section`
     background-color: red;
     margin: 0;
     flex-basis: 50%;
-    background-image: url('/images/oddity-location.png');
+    background-image: url('/crossfit-oddity/images/oddity-location.png');
     @media (max-width: 768px) {
         flex-basis: 100%;
     }

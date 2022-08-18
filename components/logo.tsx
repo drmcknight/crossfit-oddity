@@ -25,7 +25,7 @@ export const Logo = () => {
     return (
         <LogoWrapper>
         <Image
-            src="/images/oddity.png"
+            src="/crossfit-oddity/images/oddity.png"
             height="60px"
             width="60px"
             alt="logo"

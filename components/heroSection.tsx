@@ -1,11 +1,10 @@
 import styled from 'styled-components'
-import Image from 'next/image';
 
 const HeroImageSection = styled.section`
     height: 426px;
     margin: 5px;
     flex-basis: 100%;
-    background-image: url('/images/back-of-gym-hero.jpg');
+    background-image: url('/crossfit-oddity/images/back-of-gym-hero.jpg');
     background-position: 10px;
     margin: 0;
     color: white;
