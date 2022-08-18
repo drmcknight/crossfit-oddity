@@ -87,17 +87,17 @@ const Memberships: NextPage = () => {
             <Category>
               <ThreeColumnItem>
                 <CenteredItemDetails>
-                  <a href="/crossfit-oddity/images/back-of-gym-large.jpg"><Image src="/images/back-of-gym-small.jpg" width={200} height={150} alt="Back of gym. Bikes, racks, etc." /></a>
+                  <a href="/crossfit-oddity/images/back-of-gym-large.jpg"><Image src="/crossfit-oddity/images/back-of-gym-small.jpg" width={200} height={150} alt="Back of gym. Bikes, racks, etc." /></a>
                 </CenteredItemDetails>
               </ThreeColumnItem>
               <ThreeColumnItem>
                 <CenteredItemDetails>
-                  <a href="/crossfit-oddity/images/bars-and-plates-large.jpg"><Image src="/images/bars-and-plates-small.jpg" width={200} height={150} alt="Side of gym. Bars, plates, etc." /></a>
+                  <a href="/crossfit-oddity/images/bars-and-plates-large.jpg"><Image src="/crossfit-oddity/images/bars-and-plates-small.jpg" width={200} height={150} alt="Side of gym. Bars, plates, etc." /></a>
                 </CenteredItemDetails>
               </ThreeColumnItem>
               <ThreeColumnItem>
                 <CenteredItemDetails>
-                  <a href="/crossfit-oddity/images/front-of-gym-large.jpg"><Image src="/images/front-of-gym-small.jpg" width={200} height={150} alt="Front of gym. Racks, bars, bikes, entrance." /></a>
+                  <a href="/crossfit-oddity/images/front-of-gym-large.jpg"><Image src="/crossfit-oddity/images/front-of-gym-small.jpg" width={200} height={150} alt="Front of gym. Racks, bars, bikes, entrance." /></a>
                 </CenteredItemDetails>
               </ThreeColumnItem>
             </Category>
