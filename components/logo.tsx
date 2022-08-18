@@ -30,7 +30,7 @@ export const Logo = () => {
             width="60px"
             alt="logo"
         />
-        <LogoLink href="/">
+        <LogoLink href="/crossfit-oddity">
             CrossFitOddity
         </LogoLink>
     </LogoWrapper>

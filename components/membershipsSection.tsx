@@ -83,7 +83,7 @@ export const MembershipsSection = () => {
                 </MembershipWrapper>
             </MembershipList>
             <LinkList>
-                <MembershipOptionsLink href="/memberships">View more membership options</MembershipOptionsLink>
+                <MembershipOptionsLink href="/crossfit-oddity/memberships">View more membership options</MembershipOptionsLink>
             </LinkList>
         </Item>
     );
