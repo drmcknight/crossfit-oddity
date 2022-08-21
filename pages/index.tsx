@@ -24,6 +24,11 @@ const MoreInfoWrapper = styled.div`
     margin: auto;
     display: flex;
     height: 420px;
+    @media (max-width: 768px) {
+      width: 100%;
+      height: unset;
+      flex-flow: row wrap;
+    }
 `;
 
 const WayBelowTheFold = styled.section`
@@ -35,11 +40,18 @@ const HelpfulInfoWrapper = styled.div`
   width: 80%;
   margin: auto;
   display: flex;
+  @media (max-width: 768px) {
+    width: 100%;
+    flex-flow: row wrap;
+  }
 `;
 
 const OurMissionSection = styled.div`
     padding: 50px 200px 50px 200px;
     line-height: 2;
+    @media (max-width: 768px) {
+      padding: 0;
+  }
 `;
 
 const Home: NextPage = () => {
