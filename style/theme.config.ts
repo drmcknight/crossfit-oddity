@@ -15,10 +15,14 @@ body {
     font-family: Roboto;
     font-weight: 400;
     font-style: normal;
+    padding: 0;
+    margin: 0;
 }
 
 html {
     width: 100%;
+    padding: 0;
+    margin: 0;
 }
 
 a {

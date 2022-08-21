@@ -26,12 +26,20 @@ const HeroHeading = styled.h1`
     padding: 25px 25px 0 25px;
     margin: 100px 0 0 0;
     width: 420px;
+    @media (max-width: 768px) {
+        font-size: 70px;
+        width: unset;
+    }
 `;
 
 const HeroDescription = styled.p`
     width: 400px;
     margin: 0;
     padding: 0 25px 25px 25px;
+    @media (max-width: 768px) {
+        width: unset;
+        flex-basis: 100%;
+    }
 `;
 
 const CTAButton = styled.a`

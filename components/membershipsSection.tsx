@@ -8,6 +8,7 @@ const Item = styled.section`
     margin-right: 4%;
     @media (max-width: 768px) {
         flex-basis: 100%;
+        margin-right: unset;
     }
 `;
 
