@@ -1,11 +1,8 @@
 import styled from 'styled-components'
 
 const Item = styled.section`
-    height: 270px;
-    margin: 0;
     flex-basis: 50%;
-    padding: 5px;
-    background-color: #f4f4f4;
+    background-color: white;
     @media (max-width: 768px) {
         flex-basis: 100%;
     }
@@ -14,30 +11,25 @@ const Item = styled.section`
 const ItemHeader = styled.h2`
     font-family: Oswald;
     text-align: center;
+    font-size: 30px;
+    text-transform: uppercase;
 `;
 
 const ItemDescription = styled.p`
     padding: 0 40px 40px 40px;
 `;
 
-const LinkList = styled.div`
-    display: flex;
-    flex-flow: row wrap;
-    justify-content: center;
+const LinkList = styled.ul`
+
 `;
 
 const Link = styled.a`
-    display: inline-block;
-    padding: 10px;
-    background-color: #7cda24;
-    color: white;
-    cursor: pointer;
-    margin-right: 15px;
+    color: black;
     &:hover {
-        color: white;
+        color: #7cda24;
     }
     &:visited {
-        color: white;
+        color: black;
     }
 `;
 
@@ -45,13 +37,12 @@ const Link = styled.a`
 export const GettingStartedSection = () => {
     return (
         <Item>
-            <ItemHeader>Just Getting Started?</ItemHeader>
-            <ItemDescription>
-                We understand that starting something new can be intimidating. Use the resources below to hopefully take the stress out of getting started.
-            </ItemDescription>
+            <ItemHeader>Getting Started</ItemHeader>
+            We understand that starting something new can be intimidating. Use the resources below to hopefully take the stress out of getting started.
             <LinkList>
-                <Link href="/crossfit-oddity/our-gym">Tour the gym</Link>
-                <Link href="/crossfit-oddity/on-ramp">Read about the On Ramp</Link>
+                <li><Link href="/crossfit-oddity/our-gym">Tour the gym</Link></li>
+                <li><Link href="/crossfit-oddity/on-ramp">Read our Getting Started guide</Link></li>
+                <li><Link href="/crossfit-oddity/on-ramp">Directions to our location</Link></li>
             </LinkList>
         </Item>
     );

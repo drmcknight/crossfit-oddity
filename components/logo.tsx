@@ -24,14 +24,13 @@ const LogoLink = styled.a`
 export const Logo = () => {
     return (
         <LogoWrapper>
-        <Image
-            src="/crossfit-oddity/images/oddity.png"
-            height="60px"
-            width="60px"
-            alt="logo"
-        />
         <LogoLink href="/crossfit-oddity">
-            CrossFitOddity
+            <Image
+                src="/images/oddity.png"
+                height="60px"
+                width="60px"
+                alt="logo"
+            />
         </LogoLink>
     </LogoWrapper>
     )

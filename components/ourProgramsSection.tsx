@@ -4,7 +4,7 @@ const FullWidthSection = styled.section`
     max-height: 550px;
     margin: 5px;
     flex-basis: 100%;
-    background-color: #f4f4f4;
+    background-color: #7cda24;
     margin: 0;
 `;
 
@@ -37,16 +37,13 @@ export const OurProgramsSection = () => {
         <FullWidthSection>
             <ItemList>
                 <Item>
-                    <ItemHeader>CrossFit Group Training</ItemHeader>
-                    <ItemDescription>Execute a diverse set of workouts within a group setting. Each session is led by a coach that will warm you up, teach you how to perform the moves, and help you scale the exercise to your fitness level. You must complete our Foundations course before jumping into a group sessions.</ItemDescription>
+                    <ItemHeader>Engaging Programs</ItemHeader>
                 </Item>
                 <Item>
-                    <ItemHeader>Barbell Club</ItemHeader>
-                    <ItemDescription>Work on olympic weightlifting in 8 week blocks with a trained coach.</ItemDescription>
+                    <ItemHeader>Air Conditioning</ItemHeader>
                 </Item>
                 <Item>
-                    <ItemHeader>Yoga Classes</ItemHeader>
-                    <ItemDescription>Improve mental and physical fitness with our twice-per-week yoga classes. These classes are included in your membership and will be led by a coach.</ItemDescription>
+                    <ItemHeader>24hr Access</ItemHeader>
                 </Item>
             </ItemList>
         </FullWidthSection>

@@ -1,12 +1,10 @@
 import styled from 'styled-components'
 
 const Item = styled.section`
-    margin: 5px;
+    height: 360px;
     flex-basis: 50%;
     padding: 5px;
-    background-color: #7cda24;
-    color: white;
-    margin: 0;
+    background-color: white;
     @media (max-width: 768px) {
         flex-basis: 100%;
     }
@@ -15,24 +13,26 @@ const Item = styled.section`
 const ItemHeader = styled.h2`
     font-family: Oswald;
     text-align: center;
+    text-transform: uppercase;
+    font-size: 30px;
 `;
 
 const ItemDescription = styled.div`
-    padding: 5px;
+    padding: 0 35px 0;
     margin: auto;
 `;
 
 const Form = styled.form`
     display: flex;
     flex-flow: row wrap;
-    justify-content: end;
-    margin-top: 15px;
+    justify-content: center;
+    margin-top: 25px;
 `;
 
 const Input = styled.input`  
-    width: 300px;
+    width: 400px;
     height: 40px;
-    margin: 0 15px 0 0;
+    margin: 15px 15px 0 0;
     @media (max-width: 768px) {
         width: 350px;
         margin: 5px;
@@ -55,8 +55,8 @@ const SubmitButton = styled.button`
 export const CTASection = () => {
     return (
         <Item>
-            <ItemHeader>Leave us your name and number and we'll text you</ItemHeader>
-            <ItemDescription>We will talk about what your fitness goals are in addition to helping you pick the right program tailored specifically for you. </ItemDescription>
+            <ItemHeader>Let's Chat!</ItemHeader>
+            <ItemDescription>Leave us your name and number and we'll text you. We will talk about what your fitness goals are in addition to helping you pick the right program tailored specifically for you. </ItemDescription>
             <Form action="https://formspree.io/f/xbjbjkgd" method='POST'>
                 <Input name='name' placeholder='Your name' />
                 <Input name='phone' placeholder='Phone' />

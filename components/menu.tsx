@@ -10,6 +10,13 @@ const Nav = styled.nav`
 const Link = styled.a`
   line-height: 60px;
   padding-right: 20px;
+  color: white;
+  &:visited {
+    color: white;
+  }
+  &:hover {
+    color: #7cda24;
+  }
 `;
 
 
