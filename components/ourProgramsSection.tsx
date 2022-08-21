@@ -6,25 +6,26 @@ const FullWidthSection = styled.section`
     flex-basis: 100%;
     background-color: #7cda24;
     margin: 0;
+    
 `;
 
 const ItemHeader = styled.h2`
-    font-weight: 800;
     text-transform: uppercase;
     font-family: Oswald;
     text-align: center;
+    font-size: 15px;
 `;
 
 const ItemList = styled.div`
     display: flex;
     flex-flow: row wrap;
+    @media (max-width: 768px) {
+        justify-content: center;
+    }
 `;
 
 const Item = styled.summary`
     flex-basis: 33%;
-    @media (max-width: 768px) {
-        flex-basis: 100%;
-      }
     padding: 0px 25px;
 `;
 

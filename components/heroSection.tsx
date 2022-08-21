@@ -29,6 +29,7 @@ const HeroHeading = styled.h1`
     @media (max-width: 768px) {
         font-size: 70px;
         width: unset;
+        margin: 200px 0 0 0;
     }
 `;
 
