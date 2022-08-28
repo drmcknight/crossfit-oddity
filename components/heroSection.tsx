@@ -2,13 +2,14 @@ import styled from 'styled-components'
 import { Header } from './header';
 
 const HeroImageSection = styled.section`
-    height: 615px;
+    height: 633px;
     flex-basis: 100%;
     background-image: url('https://via.placeholder.com/1500x625.webp');
     background-position: 10px;
     margin: 0;
     color: white;
     @media (max-width: 768px) {
+        height: 620px;
         flex-basis: 100%;
     }
 `;
