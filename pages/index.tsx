@@ -53,7 +53,7 @@ const OurMissionSection = styled.div`
     padding: 50px 200px 50px 200px;
     line-height: 2;
     @media (max-width: 768px) {
-      padding: 0;
+      padding: 20px;
   }
 `;
 
