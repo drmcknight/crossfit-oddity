@@ -35,7 +35,7 @@ const WayBelowTheFold = styled.section`
   background-color: white;
   flex-basis: 100%;
   @media (max-width: 768px) {
-    padding: 20px;
+    padding: 0 20px;
   }
 `;
 
