@@ -27,6 +27,9 @@ const Form = styled.form`
     flex-flow: row wrap;
     justify-content: center;
     margin-top: 25px;
+    @media (max-width: 768px) {
+        margin-top: 10px;
+    }
 `;
 
 const Input = styled.input`  

@@ -57,6 +57,17 @@ const OurMissionSection = styled.div`
   }
 `;
 
+const Divider = styled.div`
+  display:none;
+  @media (max-width: 768px) {
+    display: block;
+    width: 100%;
+    height: 2px;
+    background-color: black;
+    background-image: radial-gradient(white, #7cda24, white 70%);
+  }
+`;
+
 const Home: NextPage = () => {
 
   return (
@@ -81,12 +92,15 @@ const Home: NextPage = () => {
                 </OurMissionSection>
               <MoreInfoWrapper>
                 <MembershipsSection />
+                <Divider />
                 <CTASection />
+                <Divider />
               </MoreInfoWrapper>
             </BelowTheFold>
             <WayBelowTheFold>
               <HelpfulInfoWrapper>
                 <OurGymSection />
+                <Divider />
                 <GettingStartedSection />
               </HelpfulInfoWrapper>
             </WayBelowTheFold>

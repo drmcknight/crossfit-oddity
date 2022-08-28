@@ -9,6 +9,7 @@ const Item = styled.section`
     @media (max-width: 768px) {
         flex-basis: 100%;
         margin-right: unset;
+        height: unset;
     }
 `;
 
@@ -24,16 +25,14 @@ const MembershipList = styled.div`
     padding: 10px;
     margin-top: 45px;
     flex-flow: row wrap;
-    justify-content: space-evenly
+    justify-content: space-evenly;
+    @media (max-width: 768px) {
+        margin-top: unset;
+    }
 `;
 
 
 const MembershipWrapper = styled.div`
-`;
-
-const MembershipHeader = styled.div`
-    font-style: italic;
-    margin-left: 40px;
 `;
 
 const PriceDollar = styled.span`
