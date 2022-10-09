@@ -82,8 +82,8 @@ const Home: NextPage = () => {
             <HeroSection />
             <BelowTheFold>
                 <OurMissionSection>
-                  <p>
-                    Our Mission is to take ordinary people and give them extraordinary results by focusing all of our energy, on our mission. The result is an amazing gym, talented Coaches and a fantastic, welcoming community of members exceeding their fitness goals.
+                  <p style={{fontSize: 'x-large'}}>
+                    Our mission is to achieve extraordinary results with ordinary people. The result is an amazing gym with talented coaches and a fantastic, welcoming community.
                   </p>
                 </OurMissionSection>
               <MoreInfoWrapper>
