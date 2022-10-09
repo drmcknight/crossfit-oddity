@@ -42,7 +42,7 @@ export const GettingStartedSection = () => {
             <LinkList>
                 <li><Link href="/crossfit-oddity/our-gym">Tour the gym</Link></li>
                 <li><Link href="/crossfit-oddity/on-ramp">Read our Getting Started guide</Link></li>
-                <li><Link href="/crossfit-oddity/on-ramp">Directions to our location</Link></li>
+                <li><Link href="/crossfit-oddity/location">Directions to our location</Link></li>
             </LinkList>
         </Item>
     );
