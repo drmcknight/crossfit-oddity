@@ -34,10 +34,11 @@ const HeroHeading = styled.h1`
     }
 `;
 
-const HeroDescription = styled.p`
+const HeroDescription = styled.ul`
     width: 400px;
-    margin: 0;
+    margin: 0 0 0 40px;
     padding: 0 25px 25px 25px;
+    font-size: large;
     @media (max-width: 768px) {
         width: unset;
         flex-basis: 100%;
@@ -52,6 +53,7 @@ const CTAButton = styled.a`
     color: white;
     cursor: pointer;
     margin-right: 15px;
+    font-size: x-large;
     &:hover {
         color: white;
     }
@@ -69,8 +71,12 @@ export const HeroSection = () => {
                 <HeroHeading>
                     Oddity Athletics
                 </HeroHeading>
-                <HeroDescription>Whether you are new to CrossFit or have experience and are new to Oddity this is the place to start.</HeroDescription>
-                <CTAButton href="">Read more</CTAButton>
+                <HeroDescription>
+                    <li>Engaging Programs</li>
+                    <li>Air Conditioning</li>
+                    <li>24hr Access</li>
+                </HeroDescription>
+                <CTAButton href="">Let's get started!</CTAButton>
             </HeroMask>
         </HeroImageSection>
     );

@@ -1,12 +1,13 @@
 import styled from 'styled-components'
 
 const Item = styled.section`
-    height: 360px;
     flex-basis: 50%;
     padding: 5px;
     background-color: white;
+    margin-bottom: 35px;
     @media (max-width: 768px) {
         flex-basis: 100%;
+        margin-bottom: unset;
     }
 `;
 

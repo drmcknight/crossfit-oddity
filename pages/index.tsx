@@ -75,19 +75,15 @@ const Home: NextPage = () => {
       <Head>
         <title>CrossFit Oddity - Madison, AL</title>
         <meta name="description" content='Come in for a “No Sweat Intro” today! We will talk about what your fitness goals are in addition to helping you pick the right program tailored specifically for you. Part of what makes Oddity different from every other gym out there is the personal attention we give in talking about nutrition, goal setting and lifestyle. Whether you are new to CrossFit or have experience and are new to Oddity this is the place to start.'></meta>
-        {/* <link href="https://fonts.googleapis.com/css2?family=Oswald&family=Roboto&display=optional" rel="stylesheet" /> */}
+        { <link href="https://fonts.googleapis.com/css2?family=Oswald&family=Roboto&display=optional" rel="stylesheet" /> }
       </Head>
       <Wrapper>
         <Main>
             <HeroSection />
-            <OurProgramsSection />
             <BelowTheFold>
                 <OurMissionSection>
-                  <h2>
-                    Our Mission at CrossFit Oddity
-                  </h2>
                   <p>
-                  Our Mission:  Take “ordinary people and give them extraordinary results”.  By focusing all of our energy, effort and finances  on our mission, the result is an amazing gym, talented Coaches and a fantastic, welcoming community of members exceeding their fitness goals.
+                    Our Mission is to take ordinary people and give them extraordinary results by focusing all of our energy, on our mission. The result is an amazing gym, talented Coaches and a fantastic, welcoming community of members exceeding their fitness goals.
                   </p>
                 </OurMissionSection>
               <MoreInfoWrapper>
