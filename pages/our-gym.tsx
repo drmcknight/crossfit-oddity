@@ -61,7 +61,7 @@ const Memberships: NextPage = () => {
         <link href="https://fonts.googleapis.com/css2?family=Oswald&family=Roboto&display=optional" rel="stylesheet" />
       </Head>
       <Wrapper>
-        <Header />
+        <Header isHomepage={false} />
         <Main>
             <PageHeader>Our Gym</PageHeader>
             <Category>

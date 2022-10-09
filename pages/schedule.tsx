@@ -63,7 +63,7 @@ const OnRamp: NextPage = () => {
         <link href="https://fonts.googleapis.com/css2?family=Oswald&family=Roboto&display=optional" rel="stylesheet" />
       </Head>
       <Wrapper>
-        <Header />
+        <Header isHomepage={false} />
         <Main>
             <PageHeader>Schedule</PageHeader>
             <Image src="/crossfit-oddity/images/oddity-schedule.webp" height="400" width="700"></Image>

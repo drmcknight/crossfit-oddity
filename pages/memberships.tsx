@@ -76,7 +76,7 @@ const Memberships: NextPage = () => {
         <link href="https://fonts.googleapis.com/css2?family=Oswald&family=Roboto&display=optional" rel="stylesheet" />
       </Head>
       <Wrapper>
-        <Header />
+        <Header isHomepage={false} />
         <Main>
             <PageHeader>Memberships</PageHeader>
             <p>We are proud to offer a 10% discount on all rates to Military, First Responders, teachers and students – with ID</p>

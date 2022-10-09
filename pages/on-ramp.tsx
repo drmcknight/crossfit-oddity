@@ -63,7 +63,7 @@ const OnRamp: NextPage = () => {
         <link href="https://fonts.googleapis.com/css2?family=Oswald&family=Roboto&display=optional" rel="stylesheet" />
       </Head>
       <Wrapper>
-        <Header />
+        <Header isHomepage={false} />
         <Main>
             <PageHeader>On-Ramp</PageHeader>
             <p>Our Foundations class, also called the on-ramp, is three 1-on-1 sessions with a coach who will teach and demonstrate the foundational movements we use in CrossFit, as well as review your range of motion and various scales to get you moving safely. In each session, you will learn the basics of what we do in the gym and how to perform the movements to maximize safety and efficacy.</p>

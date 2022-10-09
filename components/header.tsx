@@ -22,11 +22,11 @@ const PhoneNumber = styled.a`
 `;
 
 
-export const Header = () => {
+export const Header = ({isHomepage}) => {
     return (
         <HeaderWrapper>
             <Logo />
-            <Menu />
+            <Menu linkColor={ isHomepage ? 'white' : 'black'} />
         </HeaderWrapper>
     )
 }

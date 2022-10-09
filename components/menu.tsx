@@ -23,12 +23,20 @@ const MenuLinks = styled.div`
   }
 `;
 
-const Link = styled.a`
+
+
+
+
+export const Menu = ({linkColor}) => {
+  const [isOpen, openMenu] = useState(false);
+  const [isMobile, setIsMobile] = useState(false);
+
+  const Link = styled.a`
   line-height: 60px;
   padding-right: 20px;
-  color: white;
+  color: ${ linkColor ?? 'white'};
   &:visited {
-    color: white;
+    color: ${ linkColor ?? 'white'};
   }
   &:hover {
     color: #7cda24;
@@ -46,11 +54,6 @@ const Link = styled.a`
   }
 `;
 
-
-
-export const Menu = () => {
-  const [isOpen, openMenu] = useState(false);
-  const [isMobile, setIsMobile] = useState(false);
   useEffect(() => {
     setIsMobile(window.innerWidth <= 768);
   });

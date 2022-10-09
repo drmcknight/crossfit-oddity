@@ -67,7 +67,7 @@ export const HeroSection = () => {
     return (
         <HeroImageSection>
             <HeroMask>
-                <Header />            
+                <Header isHomepage={true} />            
                 <HeroHeading>
                     Oddity Athletics
                 </HeroHeading>
