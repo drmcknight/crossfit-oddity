@@ -63,7 +63,7 @@ export const Menu = () => {
               <Link href="/crossfit-oddity/schedule">Schedule</Link>
             </MenuLinks>
         </Nav>
-        <FontAwesomeIcon icon={faBars} size="2xs" color='black' style={{display: isMobile ? 'block' : 'none', zIndex: 1, padding: '10px'}} onClick={() => openMenu(!isOpen)} />
+        <FontAwesomeIcon icon={faBars} size="sm" color='black' style={{display: isMobile ? 'block' : 'none', zIndex: 1, padding: '10px'}} onClick={() => openMenu(!isOpen)} />
       </React.Fragment>
     );
 }
