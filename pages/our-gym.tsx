@@ -66,26 +66,6 @@ const Memberships: NextPage = () => {
             <PageHeader>Our Gym</PageHeader>
             <Category>
               <ThreeColumnItem>
-                <ItemHeader>Community</ItemHeader>
-                <ItemDetails>
-                  Our community is incredibly welcoming and supportive – always willing to offer advice, coaching and encouragement. We also participate in community events such as Wod for Water.
-                </ItemDetails>
-              </ThreeColumnItem>
-              <ThreeColumnItem>
-                <ItemHeader>Classes</ItemHeader>
-                <ItemDetails>
-                  All classes are coach led and we offer a flexible schedule for our clients. We also educate our clients with nutrition workshops, mobility clinics, and challenges.
-                </ItemDetails>
-              </ThreeColumnItem>
-              <ThreeColumnItem>
-                <ItemHeader>Programming</ItemHeader>
-                <ItemDetails>
-                We all have different goals and we understand this at Oddity. We will individualize workouts to meet these needs and do this in a group setting.
-                </ItemDetails>
-              </ThreeColumnItem>
-            </Category>
-            <Category>
-              <ThreeColumnItem>
                 <CenteredItemDetails>
                   <a href="/crossfit-oddity/images/back-of-gym-large.jpg"><Image src="/crossfit-oddity/images/back-of-gym-small.jpg" width={200} height={150} alt="Back of gym. Bikes, racks, etc." /></a>
                 </CenteredItemDetails>
