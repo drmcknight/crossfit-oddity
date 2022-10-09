@@ -4,6 +4,7 @@ import Image from 'next/image';
 const LogoWrapper = styled.div`
     display: flex;
     flex-direction: row;
+    z-index: 2;
 `;
 
 const LogoLink = styled.a`
