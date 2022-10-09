@@ -19,6 +19,7 @@ const nextConfig = {
       '/our-gym': { page: '/our-gym' },
       '/schedule': { page: '/schedule' },
       '/on-ramp': { page: '/on-ramp' },
+      '/location': { page: '/location'}
     }
   },
 }
