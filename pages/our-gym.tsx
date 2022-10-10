@@ -19,6 +19,7 @@ const Main = styled.main`
 
 const PageHeader = styled.h1`
     flex-basis: 100%;
+    padding: 5px;
 `;
 
 const Category = styled.section`

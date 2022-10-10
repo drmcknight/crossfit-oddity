@@ -19,6 +19,7 @@ const Main = styled.main`
 
 const PageHeader = styled.h1`
     flex-basis: 100%;
+    padding: 5px;
 `;
 
 const Category = styled.section`
@@ -79,7 +80,7 @@ const Memberships: NextPage = () => {
         <Header isHomepage={false} />
         <Main>
             <PageHeader>Memberships</PageHeader>
-            <p>We are proud to offer a 10% discount on all rates to Military, First Responders, teachers and students – with ID</p>
+            <p style={{padding:'15px'}}>We are proud to offer a 10% discount on all rates to Military, First Responders, teachers and students – with ID</p>
             <Category>
               <CategoryHeader>Monthly Memberships</CategoryHeader>
               <TwoColumnItem>
@@ -143,7 +144,7 @@ const Memberships: NextPage = () => {
                 </ItemDetails>
               </ThreeColumnItem>
             </Category>
-            <p>If you're new to CrossFit you must take a Foundations Class to ensure you are at the right starting point before going to regular workouts. At a minimum it is 3 1-hour session with a coach.  Cost is $105. If needed, each additional class is $35.</p>
+            <p style={{padding:'15px'}}>If you're new to CrossFit you must take a Foundations Class to ensure you are at the right starting point before going to regular workouts. At a minimum it is 3 1-hour session with a coach.  Cost is $105. If needed, each additional class is $35.</p>
             <CTAFullWidth />
         </Main>
       </Wrapper>
