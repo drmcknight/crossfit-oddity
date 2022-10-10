@@ -11,7 +11,7 @@ const HeroImageSection = styled.section`
     margin: 0;
     color: white;
     @media (max-width: 768px) {
-        height: 690px;
+        height: 710px;
         flex-basis: 100%;
     }
 `;
