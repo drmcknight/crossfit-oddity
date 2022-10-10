@@ -1,15 +1,17 @@
 import styled from 'styled-components'
 import { Header } from './header';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faDumbbell, faSnowflake, faClock } from '@fortawesome/free-solid-svg-icons'
 
 const HeroImageSection = styled.section`
-    height: 633px;
+    height: 670px;
     flex-basis: 100%;
     background-image: url('https://via.placeholder.com/1500x625.webp');
     background-position: 10px;
     margin: 0;
     color: white;
     @media (max-width: 768px) {
-        height: 620px;
+        height: 690px;
         flex-basis: 100%;
     }
 `;
@@ -38,7 +40,8 @@ const HeroDescription = styled.ul`
     width: 400px;
     margin: 0 0 0 40px;
     padding: 0 25px 25px 25px;
-    font-size: large;
+    font-size: x-large;
+    list-style: disclosure-closed;
     @media (max-width: 768px) {
         width: unset;
         flex-basis: 100%;
@@ -76,7 +79,7 @@ export const HeroSection = () => {
                     <li>Air Conditioning</li>
                     <li>24hr Access</li>
                 </HeroDescription>
-                <CTAButton href="">Let's get started!</CTAButton>
+                <CTAButton href="#cta">Let's get started!</CTAButton>
             </HeroMask>
         </HeroImageSection>
     );

@@ -58,7 +58,7 @@ const SubmitButton = styled.button`
 
 export const CTASection = () => {
     return (
-        <Item>
+        <Item id="cta">
             <ItemHeader>Let's Chat!</ItemHeader>
             <ItemDescription>Leave us your name and number and we'll text you. We will talk about what your fitness goals are in addition to helping you pick the right program tailored specifically for you. </ItemDescription>
             <Form action="https://formspree.io/f/xbjbjkgd" method='POST'>
