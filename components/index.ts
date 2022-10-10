@@ -9,3 +9,4 @@ export { CTASection } from './ctaSection';
 export { LocationSection } from './locationSection';
 export { HeroSection } from './heroSection';
 export { OurGymSection } from './ourGymSection';
+export { Footer } from './footer';

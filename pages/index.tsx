@@ -2,7 +2,7 @@ import type { NextPage } from 'next'
 import Head from 'next/head'
 import React from 'react'
 import styled from 'styled-components';
-import { CTASection, GettingStartedSection, Header, HeroSection, LocationSection, MembershipsSection, OurGymSection, OurProgramsSection, Wrapper } from '../components'
+import { CTASection, Footer, GettingStartedSection, Header, HeroSection, LocationSection, MembershipsSection, OurGymSection, OurProgramsSection, Wrapper } from '../components'
 
 const Main = styled.main`
     width: 100%;
@@ -100,6 +100,7 @@ const Home: NextPage = () => {
                 <GettingStartedSection />
               </HelpfulInfoWrapper>
             </WayBelowTheFold>
+            <Footer />
         </Main>
       </Wrapper>
     </React.Fragment>
