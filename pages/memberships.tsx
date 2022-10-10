@@ -27,7 +27,6 @@ const Category = styled.section`
     justify-content: center;
     flex-flow: row wrap;
     flex-basis: 100%;
-    border-top: 1px solid #7cda24;
     margin-bottom: 25px;
 `;
 const CategoryHeader = styled.h2`
@@ -63,8 +62,9 @@ const ItemPrice = styled.div`
   border: 1px solid lightgray; 
 `;
 const ItemDetails = styled.div`
-  border: 1px solid lightgray; 
   text-align: left;
+  color: black;
+  font-size: 20px;
 `;
 
 const Memberships: NextPage = () => {
@@ -85,63 +85,74 @@ const Memberships: NextPage = () => {
               <CategoryHeader>Monthly Memberships</CategoryHeader>
               <TwoColumnItem>
                 <ItemHeader>Unlimited</ItemHeader>
-                <ItemPrice>$150</ItemPrice>
-                <ItemDetails>
-                  <ul>
-                    <li>No limit to attendance</li>
-                    <li>Attend all the classes you want when you want</li>
-                    <li>Workout Planning included</li>
-                    <li>No Contract or initiation fees</li>
-                  </ul>
-                </ItemDetails>
+                <ItemPrice>
+                  $150
+                  <ItemDetails>
+                    <ul>
+                      <li>No limit to attendance</li>
+                      <li>Attend all the classes you want when you want</li>
+                      <li>Workout Planning included</li>
+                      <li>No Contract or initiation fees</li>
+                    </ul>
+                  </ItemDetails>
+                </ItemPrice>
               </TwoColumnItem>
               <TwoColumnItem>
                 <ItemHeader>3 Days/Week</ItemHeader>
-                <ItemPrice>$135</ItemPrice>
-                <ItemDetails>
-                  <ul>
-                    <li>Attend 3 classes a week</li>
-                    <li>Attend whichever time slot you want</li>
-                    <li>Workout Planning Included</li>
-                    <li>No Contract or initiation fees</li>
-                  </ul>
-                </ItemDetails>
+                <ItemPrice>
+                  $135
+                  <ItemDetails>
+                    <ul>
+                      <li>Attend 3 classes a week</li>
+                      <li>Attend whichever time slot you want</li>
+                      <li>Workout Planning Included</li>
+                      <li>No Contract or initiation fees</li>
+                    </ul>
+                  </ItemDetails>
+                </ItemPrice>
               </TwoColumnItem>
             </Category>
             <Category>
               <CategoryHeader>Passes and Drop-in</CategoryHeader>
               <ThreeColumnItem>
                 <ItemHeader>10 Class Punch Card</ItemHeader>
-                <ItemPrice>$140</ItemPrice>
-                <ItemDetails>
-                  <ul>
-                    <li>Pick your class and attendance frequency</li>
-                    <li>No contracts</li>
-                    <li>Flexible</li>
-                    <li>No Initiation Fee</li>
-                    <li>Doesn’t expire</li>
-                    <li>Workout Planning included</li>
-                  </ul>
-                </ItemDetails>
+                <ItemPrice>
+                  $140
+                  <ItemDetails>
+                    <ul>
+                      <li>Pick your class and attendance frequency</li>
+                      <li>No contracts</li>
+                      <li>Flexible</li>
+                      <li>No Initiation Fee</li>
+                      <li>Doesn’t expire</li>
+                      <li>Workout Planning included</li>
+                    </ul>
+                  </ItemDetails>
+                </ItemPrice>
               </ThreeColumnItem>
               <ThreeColumnItem>
                 <ItemHeader>1-Week Pass</ItemHeader>
-                <ItemPrice>$80</ItemPrice>
-                <ItemDetails>
-                  <ul>
-                    <li>One week unlimited access</li>
-                    <li>Great if you're here for a short time. Better deal than drop in rate.</li>
-                  </ul>
-                </ItemDetails>
+                <ItemPrice>
+                  $80
+                  <ItemDetails>
+                    <ul>
+                      <li>One week unlimited access</li>
+                      <li>Great if you're here for a short time. Better deal than drop in rate.</li>
+                    </ul>
+                  </ItemDetails>
+                </ItemPrice>
               </ThreeColumnItem>
               <ThreeColumnItem>
                 <ItemHeader>Drop-in</ItemHeader>
-                <ItemPrice>$20</ItemPrice>
-                <ItemDetails>
-                  <ul>
-                    <li>One day workout for visitors.</li>
-                  </ul>
-                </ItemDetails>
+                <ItemPrice>
+                  $20
+                  <ItemDetails>
+                    <ul>
+                      <li>One day workout for visitors.</li>
+                    </ul>
+                  </ItemDetails>
+                </ItemPrice>
+                
               </ThreeColumnItem>
             </Category>
             <p style={{padding:'15px'}}>If you're new to CrossFit you must take a Foundations Class to ensure you are at the right starting point before going to regular workouts. At a minimum it is 3 1-hour session with a coach.  Cost is $105. If needed, each additional class is $35.</p>
