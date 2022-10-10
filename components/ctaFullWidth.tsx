@@ -56,8 +56,9 @@ export const CTAFullWidth = () => {
     return (
         <Item>
             <ItemHeader>Ready to get started?</ItemHeader>
-            <ItemDescription>Leave us your name in number in the form below! We'll reach out and talk about what your fitness goals are and explain next steps. 
-                <p>If you're new to CrossFit you must take a Foundations Class to ensure you are at the right starting point before going to regular workouts. At a minimum it is 3 1-hour session with a coach.  Cost is $105. If needed, each additional class is $35.</p></ItemDescription>
+            <ItemDescription>
+                Leave us your name in number in the form below! We'll reach out and talk about what your fitness goals are and explain next steps. 
+            </ItemDescription>
             <Form action="https://formspree.io/f/xbjbjkgd" method='POST'>
                 <Input name='name' placeholder='Your name' />
                 <Input name='phone' placeholder='Phone' />
