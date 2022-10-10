@@ -67,8 +67,8 @@ const OnRamp: NextPage = () => {
         <Header isHomepage={false} />
         <Main>
             <PageHeader>On-Ramp</PageHeader>
-            <p>Our Foundations class, also called the on-ramp, is three 1-on-1 sessions with a coach who will teach and demonstrate the foundational movements we use in CrossFit, as well as review your range of motion and various scales to get you moving safely. In each session, you will learn the basics of what we do in the gym and how to perform the movements to maximize safety and efficacy.</p>
-            <p>The Foundations Class costs $105 for three sessions. If needed, each additional class is $35</p>
+            <p style={{padding: '15px'}}>Our Foundations class, also called the on-ramp, is three 1-on-1 sessions with a coach who will teach and demonstrate the foundational movements we use in CrossFit, as well as review your range of motion and various scales to get you moving safely. In each session, you will learn the basics of what we do in the gym and how to perform the movements to maximize safety and efficacy.</p>
+            <p style={{padding: '15px'}}>The Foundations Class costs $105 for three sessions. If needed, each additional class is $35</p>
             <CTAFullWidth />
         </Main>
       </Wrapper>
