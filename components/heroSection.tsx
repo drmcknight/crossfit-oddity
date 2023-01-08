@@ -1,13 +1,13 @@
 import styled from 'styled-components'
 import { Header } from './header';
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faDumbbell, faSnowflake, faClock } from '@fortawesome/free-solid-svg-icons'
 
 const HeroImageSection = styled.section`
     height: 670px;
     flex-basis: 100%;
-    background-image: url('https://via.placeholder.com/1500x625.webp');
-    background-position: 10px;
+    background-image: url('/crossfit-oddity/images/oddity-christmas.jpg');
+    background-position: center -300px;
+    background-repeat: no-repeat;
+    background-size: auto auto;
     margin: 0;
     color: white;
     @media (max-width: 768px) {
